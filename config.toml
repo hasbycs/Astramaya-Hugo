@@ -25,22 +25,33 @@ theme = "raditian-free-hugo-theme"
 # navigation
 [menu]
 
+  # Header
   [[menu.header]]
-  name = "About"
+  name = "About Us"
   URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Portfolio"
+  name = "Our Services"
   URL = "#portfolio"
   weight = 3
 
   [[menu.header]]
-  name = "Contact"
+  name = "Product"
+  URL = "#product"
+  weight = 4
+  
+  [[menu.header]]
+  name = "Our Team"
+  URL = "#ourteam"
+  weight = 4
+
+  [[menu.header]]
+  name = "Contact Us"
   URL = "#contact"
   weight = 4
 
-
+  #Footer
   [[menu.footer]]
   name = "About"
   URL = "#about"
