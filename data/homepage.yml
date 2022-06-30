@@ -12,11 +12,11 @@ showcase:
     for you communication team?"
   image:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase.png"
-    _2x: "img/showcase/showcase@2x.png"
+    x: "img/showcase/landing-image.png"
+    _2x: "img/showcase/landing-image.png"
   imageMobile:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/showcase-mobile.jpg"
+    x: "img/showcase/landing-image.png"
 
   button:
     icon: "icon-mail-fill"
@@ -57,36 +57,35 @@ showcase:
 # about
 about:
   enable: true
-  title: "About Our Company"
-  content: '<p class="lead">
-    We are a start up company focuses on analyzing all
+  title: "About <br/> Our Company"
+  content: "We are a start up company focuses on analyzing all
     kind of data. ASTRAMAYA advance in analyzing
-    conversations and news both social and mass media'
+    conversations and news both social and mass media"
   button:
     icon: "icon-smile-fill"
     btnText: "Read more"
     URL: "https://www.linkedin.com/company/radity/"
   image:
-    x: "img/who-am-i/wp1028502.png"
-    _2x: "img/who-am-i/wp10285027.png"
+    x: "img/about/about.png"
+    _2x: "img/about/about.png"
 
 # education
 what_we_do:
   enable: true
   title: "What we do?"
   description: "Understanding the ups and downs of your <br/> REPUTATION is very important to :"
-  items:
-    - image: ""
-      description: "Help make the accurate desicion about campaign"
-      style: "background-color: #1673a6"
+  # items:
+  #   - image: ""
+  #     description: "Help make the accurate desicion about campaign"
+  #     style: "background-color: #1673a6"
 
-    - image: ""
-      description: "Reach new audience"
-      style: "background-color: #874c8a"
+  #   - image: ""
+  #     description: "Reach new audience"
+  #     style: "background-color: #874c8a"
 
-    - image: ""
-      description: "Keep tracking Brand image. Especially when there is a crisis"
-      style: "background-color: #391e3b"
+  #   - image: ""
+  #     description: "Keep tracking Brand image. Especially when there is a crisis"
+  #     style: "background-color: #391e3b"
 # experience
 experience:
   enable: true
