@@ -97,6 +97,36 @@ product:
   image:
     alt: "product image"
     x: "img/product/product.png"
+  products:
+    - title: "Analisis Audiens"
+      image: "img/product/audience.jpg"
+      description: "Identifikasi dan pahami audiens, influencer dan personal yang penting bagi perusahaan anda"
+      active: "active"
+      number: "1"
+
+    - title: "Analisis Merek"
+      image: "img/product/merk.jpg"
+      description: "Mengukur merek dan menentukan apa yang mendorong sentimen positif dan negatif terkait perusahaan anda"
+      active: ""
+      number: "2"
+
+    - title: "Analisis Industri & Tren"
+      image: "img/product/trend.png"
+      description: "Menemukan Tren konsumen di pasar dan memahami lanskap industri anda yang berkembang serta"
+      active: ""
+      number: "3"
+
+    - title: "Analisis Kampanye & Krisis"
+      image: "img/product/campaign.png"
+      description: "Memantau kinerja kampanye perusahaan maupun kondisi krisis untuk memahami ROI dan respons konsumen di media sosial maupun media online"
+      active: ""
+      number: "4"
+
+    - title: "Pemetaan Pemangku Kepentingan"
+      image: "img/product/stakeholder.png"
+      description: "Memantau promotor dan destruktor anda untuk memperkuat reputasi"
+      active: ""
+      number: "5"
 
 # client
 client:

@@ -41,10 +41,10 @@ theme = "raditian-free-hugo-theme"
   URL = "#product"
   weight = 4
   
-  [[menu.header]]
-  name = "Our Team"
-  URL = "#ourteam"
-  weight = 5
+  # [[menu.header]]
+  # name = "Our Team"
+  # URL = "#ourteam"
+  # weight = 5
 
   [[menu.header]]
   name = "Contact Us"
@@ -67,10 +67,10 @@ theme = "raditian-free-hugo-theme"
   URL = "#product"
   weight = 4
   
-  [[menu.footer]]
-  name = "Our Team"
-  URL = "#ourteam"
-  weight = 5
+  # [[menu.footer]]
+  # name = "Our Team"
+  # URL = "#ourteam"
+  # weight = 5
 
   [[menu.footer]]
   name = "Contact Us"
@@ -88,7 +88,7 @@ theme = "raditian-free-hugo-theme"
     "our-service", 
     "product", 
     "client", 
-    "our-team", 
+    # "our-team",
     "contact", 
     "newsletter"
     # "testimonial",

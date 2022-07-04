@@ -1,14 +1,268 @@
 {{ if .Site.Data.homepage.product.enable }}
-<section class="section rad-animation-group mt-5" id="product">
+<section class="section rad-animation-group" id="product">
   <div class="container">
     <div class="rad-fade-down">
       <div class="text-center">
         <h2 class="purple-font">{{ .Site.Data.homepage.product.title }}</h2>
       </div>
-      <div class="row justify-content-center">
-        <img src="{{ .Site.Data.homepage.product.image.x }}" alt="{{ .Site.Data.homepage.product.image.alt }}" />
+
+      <div id="carouselExampleControls" class="carousel slide mt-5" data-ride="carousel" data-interval="false">
+        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+          {{ range .Site.Data.homepage.product.products }}
+          <div class="carousel-item col-12 col-sm-12 col-md-6 col-lg-4 {{ .active }}">
+            <div class="card text-white card-has-bg click-col" style="background-image: url('{{ .image }}')">
+              <div class="card-img-overlay d-flex flex-column">
+                <div class="card-body">
+                  <small class="card-meta mb-2">#{{ .number }} </small>
+                  <h3 class="card-title mt-0"><a class="text-white" herf="#">{{ .title }}</a></h3>
+                  <p class="text-white" style="font-size: 16pt"><i class="far fa-clock"></i> {{ .description }}</p>
+                </div>
+                <div class="card-footer">
+                  <div class="media">
+                    <hr />
+                    <!-- <img
+                      class="mr-3 rounded-circle"
+                      src="https://assets.codepen.io/460692/internal/avatars/users/default.png"
+                      alt="Generic placeholder image"
+                      style="max-width: 50px"
+                    />
+                    <div class="media-body">
+                      <h6 class="my-0 text-white d-block">Oz Coruhlu</h6>
+                      <small>Director of UI/UX</small>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {{end}}
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
   </div>
 </section>
+
 {{ end }}
+
+<style lang="scss">
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    height: 55px;
+    width: 55px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-color: #444444;
+  }
+
+  .carousel-control-prev-icon {
+    margin-left: -50px;
+  }
+
+  .carousel-control-next-icon {
+    margin-right: -50px;
+  }
+
+  @media (min-width: 992px) {
+    /* Show 4th slide on lg if col-lg-4*/
+    .carousel-inner .active.col-lg-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -33.3333%; /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* Show 3rd slide on md if col-md-6*/
+    .carousel-inner .active.col-md-6.carousel-item + .carousel-item + .carousel-item {
+      position: absolute;
+      top: 0;
+      right: -50%; /*change this with javascript in the future*/
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+  }
+
+  /* MD */
+  @media (min-width: 768px) {
+    .carousel-item {
+      margin-right: 0;
+    }
+    /* show 2 items */
+    .carousel-inner .active + .carousel-item {
+      display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
+      transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+    /* farthest right hidden item must be also positioned for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      visibility: visible;
+    }
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+
+  /* LG */
+  @media (min-width: 992px) {
+    /* show 3rd of 3 item slide */
+    .carousel-inner .active + .carousel-item + .carousel-item {
+      display: block;
+    }
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
+      transition: none;
+    }
+    .carousel-inner .carousel-item-next {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    /* left or forward direction */
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+    /* right or prev direction */
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
+      position: relative;
+      transform: translate3d(100%, 0, 0);
+      visibility: visible;
+      display: block;
+      visibility: visible;
+    }
+  }
+
+  .card {
+    border: none;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 450px;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+  }
+  @media (max-width: 768px) {
+    .card {
+      min-height: 350px;
+    }
+  }
+  @media (max-width: 420px) {
+    .card {
+      min-height: 300px;
+    }
+  }
+  .card.card-has-bg {
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  .card.card-has-bg:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: inherit;
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+  }
+  .card.card-has-bg:hover {
+    transform: scale(0.98);
+    box-shadow: 0 0 5px -2px #662f8f;
+    background-size: 130%;
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .card.card-has-bg:hover .card-img-overlay {
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    background: #234f6d;
+    background: linear-gradient(0deg, rgba(4, 69, 114, 0.5) 0%, rgba(4, 69, 114, 1) 100%);
+  }
+  .card .card-footer {
+    background: none;
+    border-top: none;
+  }
+  .card .card-footer .media img {
+    border: solid 3px rgba(255, 255, 255, 0.3);
+  }
+  .card .card-meta {
+    color: #26bd75;
+  }
+  .card .card-body {
+    transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .card:hover {
+    cursor: pointer;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .card:hover .card-body {
+    margin-top: 30px;
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+  }
+  .card .card-img-overlay {
+    transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
+    background: #a56919;
+    background: linear-gradient(0deg, rgba(221, 119, 24, 0.379) 0%, rgba(69, 95, 113, 1) 100%);
+  }
+</style>
+
+<script src='{{ "plugins/jQuery/jquery.min.js" | absURL }}'></script>
+<script>
+  $("#carouselExampleControls").on("slide.bs.carousel", function (e) {
+    let $e = $(e.relatedTarget);
+    let idx = $e.index();
+    let itemsPerSlide = 3;
+    let totalItems = $(".carousel-item").length;
+    console.log("total", totalItems);
+    if (idx >= totalItems - (itemsPerSlide - 1)) {
+      let it = itemsPerSlide - (totalItems - idx);
+      for (let i = 0; i < it; i++) {
+        // append slides to end
+        if (e.direction == "left") {
+          $(".carousel-item").eq(i).appendTo(".carousel-inner");
+        } else {
+          $(".carousel-item").eq(0).appendTo(".carousel-inner");
+        }
+      }
+    }
+  });
+</script>
