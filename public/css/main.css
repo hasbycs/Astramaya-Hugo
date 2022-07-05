@@ -9972,8 +9972,8 @@ textarea:focus {
 }
 @media (min-width: 992px) {
   .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
   }
   .section .row.row--padded {
     margin-top: 80px;
@@ -10487,7 +10487,7 @@ textarea:focus {
 }
 @media (min-width: 992px) {
   .rad-showcase {
-    min-height: 870px;
+    min-height: 800px;
     padding-top: 0;
     margin-bottom: 0;
   }
@@ -10577,11 +10577,8 @@ textarea:focus {
     padding-right: 20px;
   }
   .rad-showcase {
-    min-height: 870px;
+    /* min-height: 500px; */
     padding-top: 0;
     margin-bottom: 0;
-  }
-  .rad-showcase + section {
-    margin-top: -125px;
   }
 }
