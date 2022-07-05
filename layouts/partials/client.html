@@ -2,12 +2,16 @@
 <section class="section rad-animation-group mt-5" id="client">
   <div class="container">
     <div class="rad-fade-down">
-      <div class="text-center">
+      <div class="text-center my-2 mb-5">
         <h2 class="purple-font">{{ .Site.Data.homepage.client.title }}</h2>
       </div>
-      <div class="row justify-content-center">
-        <div class="col-md-12">
-          <img src="{{ .Site.Data.homepage.client.image.x }}" alt="{{ .Site.Data.homepage.client.image.alt }}" />
+      <div class="row d-flex">
+        {{ range .Site.Data.homepage.client.clients }}
+        <div class="col-md-2">
+          <img class="img-responsive m-1" src="img/client/{{ .logo }}" alt="logo" />
+        </div>
+        {{ end }}
+          <!-- <img src="{{ .Site.Data.homepage.client.image.x }}" alt="{{ .Site.Data.homepage.client.image.alt }}" /> -->
         </div>
       </div>
     </div>

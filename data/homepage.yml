@@ -12,11 +12,11 @@ showcase:
     for you communication team?"
   image:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/landing-image.png"
-    _2x: "img/showcase/landing-image.png"
+    # x: "img/showcase/landing-image.png"
+    # _2x: "img/showcase/landing-image.png"
   imageMobile:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/landing-image.png"
+    # x: "img/showcase/landing-image.png"
 
   button:
     icon: "icon-mail-fill"
@@ -64,8 +64,8 @@ about:
   button:
     btnText: "Read more"
   image:
-    x: "img/about/about.png"
-    _2x: "img/about/about.png"
+    # x: "img/about/about.png"
+    # _2x: "img/about/about.png"
 
 # what we do
 what_we_do:
@@ -93,40 +93,40 @@ our_service:
 # product
 product:
   enable: true
-  title: "Product"
+  title: "Article"
   image:
     alt: "product image"
     x: "img/product/product.png"
   products:
-    - title: "Analisis Audiens"
-      image: "img/product/audience.jpg"
+    - title: "Energi Untuk Negeri"
+      image: "img/product/PICT1.jpg"
       description: "Identifikasi dan pahami audiens, influencer dan personal yang penting bagi perusahaan anda"
       active: "active"
       number: "1"
 
-    - title: "Analisis Merek"
-      image: "img/product/merk.jpg"
+    - title: "Konflik Papua"
+      image: "img/product/PICT2.jpg"
       description: "Mengukur merek dan menentukan apa yang mendorong sentimen positif dan negatif terkait perusahaan anda"
       active: ""
       number: "2"
 
-    - title: "Analisis Industri & Tren"
-      image: "img/product/trend.png"
+    - title: "Wajah Baru Gojek"
+      image: "img/product/PICT3.jpg"
       description: "Menemukan Tren konsumen di pasar dan memahami lanskap industri anda yang berkembang serta"
       active: ""
       number: "3"
 
-    - title: "Analisis Kampanye & Krisis"
-      image: "img/product/campaign.png"
-      description: "Memantau kinerja kampanye perusahaan maupun kondisi krisis untuk memahami ROI dan respons konsumen di media sosial maupun media online"
-      active: ""
-      number: "4"
+    # - title: "Analisis Kampanye & Krisis"
+    #   image: "img/product/campaign.png"
+    #   description: "Memantau kinerja kampanye perusahaan maupun kondisi krisis untuk memahami ROI dan respons konsumen di media sosial maupun media online"
+    #   active: ""
+    #   number: "4"
 
-    - title: "Pemetaan Pemangku Kepentingan"
-      image: "img/product/stakeholder.png"
-      description: "Memantau promotor dan destruktor anda untuk memperkuat reputasi"
-      active: ""
-      number: "5"
+    # - title: "Pemetaan Pemangku Kepentingan"
+    #   image: "img/product/stakeholder.png"
+    #   description: "Memantau promotor dan destruktor anda untuk memperkuat reputasi"
+    #   active: ""
+    #   number: "5"
 
 # client
 client:
@@ -135,6 +135,51 @@ client:
   image:
     alt: "client image"
     x: "img/client/client-image.png"
+  clients:
+    - name: "bpb"
+      logo: "BPB.svg"
+    - name: "bpom"
+      logo: "BPOM.svg"
+    - name: "Dit-Saber-Polda-Jatim"
+      logo: "Dit-Saber-Polda-Jatim.svg"
+    - name: "bpb"
+      logo: "DJIKP.svg"
+    - name: "bpb"
+      logo: "djp.svg"
+    - name: "bpb"
+      logo: "G20.svg"
+    - name: "bpb"
+      logo: "Gojek.svg"
+    - name: "bpb"
+      logo: "Insight.svg"
+    - name: "bpb"
+      logo: "Jawa-Tengah.svg"
+    - name: "bpb"
+      logo: "Kabupaten-Bogor.svg"
+    - name: "bpb"
+      logo: "Kemenkes.svg"
+    - name: "bpb"
+      logo: "KEMENKEU.svg"
+    - name: "bpb"
+      logo: "Kemenko-Polhukam.svg"
+    - name: "bpb"
+      logo: "Kemenkomarves.svg"
+    - name: "bpb"
+      logo: "Love-Frankie.svg"
+    - name: "bpb"
+      logo: "KLHK.svg"
+    - name: "bpb"
+      logo: "Median.svg"
+    - name: "bpb"
+      logo: "Pertamina.svg"
+    - name: "bpb"
+      logo: "Wahid-Pondation.svg"
+    - name: "CLUA"
+      logo: "CLUA.svg"
+    - name: "bpb"
+      logo: "Inalum.svg"
+    - name: "bpb"
+      logo: "Exim-Bank.svg"
 
 # our team
 our_team:

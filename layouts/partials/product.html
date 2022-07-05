@@ -13,8 +13,8 @@
               <div class="card-img-overlay d-flex flex-column">
                 <div class="card-body">
                   <small class="card-meta mb-2">#{{ .number }} </small>
-                  <h3 class="card-title mt-0"><a class="text-white" herf="#">{{ .title }}</a></h3>
-                  <p class="text-white" style="font-size: 16pt"><i class="far fa-clock"></i> {{ .description }}</p>
+                  <h3 class="card-title mt-0"><a class="text-white" style="background-color: rgba(101, 47, 143, 0.664)" herf="#">{{ .title }}</a></h3>
+                  <!-- <p class="text-white" style="font-size: 16pt"><i class="far fa-clock"></i> {{ .description }}</p> -->
                 </div>
                 <div class="card-footer">
                   <div class="media">
@@ -198,11 +198,11 @@
     bottom: 0;
     left: 0;
     background: inherit;
-    -webkit-filter: grayscale(1);
+    /* -webkit-filter: grayscale(1);
     -moz-filter: grayscale(100%);
     -ms-filter: grayscale(100%);
     -o-filter: grayscale(100%);
-    filter: grayscale(100%);
+    filter: grayscale(100%); */
   }
   .card.card-has-bg:hover {
     transform: scale(0.98);
@@ -238,8 +238,8 @@
   }
   .card .card-img-overlay {
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-    background: #a56919;
-    background: linear-gradient(0deg, rgba(221, 119, 24, 0.379) 0%, rgba(69, 95, 113, 1) 100%);
+    /* background: #a56919;
+    background: linear-gradient(0deg, rgba(221, 119, 24, 0.379) 0%, rgba(69, 95, 113, 1) 100%); */
   }
 </style>
 
