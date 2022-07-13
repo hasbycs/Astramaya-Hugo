@@ -137,160 +137,49 @@ client:
     x: "img/client/client-image.png"
   clients:
     - name: "bpb"
-      logo: "BPB.svg"
+      logo: "BPB.png"
     - name: "bpom"
-      logo: "BPOM.svg"
+      logo: "BPOM.png"
     - name: "Dit-Saber-Polda-Jatim"
-      logo: "Dit-Saber-Polda-Jatim.svg"
+      logo: "Dit-Saber-Polda-Jatim.png"
     - name: "bpb"
-      logo: "DJIKP.svg"
+      logo: "DJIKP.png"
     - name: "bpb"
-      logo: "djp.svg"
+      logo: "djp.png"
     - name: "bpb"
-      logo: "G20.svg"
+      logo: "G20.png"
     - name: "bpb"
-      logo: "Gojek.svg"
+      logo: "Gojek.png"
     - name: "bpb"
-      logo: "Insight.svg"
+      logo: "Insight.png"
     - name: "bpb"
-      logo: "Jawa-Tengah.svg"
+      logo: "Jawa-Tengah.png"
     - name: "bpb"
-      logo: "Kabupaten-Bogor.svg"
+      logo: "Kabupaten-Bogor.png"
     - name: "bpb"
-      logo: "Kemenkes.svg"
+      logo: "Kemenkes.png"
     - name: "bpb"
-      logo: "KEMENKEU.svg"
+      logo: "KEMENKEU.png"
     - name: "bpb"
-      logo: "Kemenko-Polhukam.svg"
+      logo: "Kemenko-Polhukam.png"
     - name: "bpb"
-      logo: "Kemenkomarves.svg"
+      logo: "Kemenkomarves.png"
     - name: "bpb"
-      logo: "Love-Frankie.svg"
+      logo: "Love-Frankie.png"
     - name: "bpb"
-      logo: "KLHK.svg"
+      logo: "KLHK.png"
     - name: "bpb"
-      logo: "Median.svg"
+      logo: "Median.png"
     - name: "bpb"
-      logo: "Pertamina.svg"
+      logo: "Pertamina.png"
     - name: "bpb"
-      logo: "Wahid-Pondation.svg"
+      logo: "Wahid-Pondation.png"
     - name: "CLUA"
-      logo: "CLUA.svg"
+      logo: "CLUA.png"
     - name: "bpb"
-      logo: "Inalum.svg"
+      logo: "Inalum.png"
     - name: "bpb"
-      logo: "Exim-Bank.svg"
-
-# our team
-our_team:
-  enable: true
-  title: "Our Team"
-  image:
-    alt: "client image"
-    x: "img/our-team/our-team-image.png"
-
-# Client & Work
-client_and_work:
-  title: "Clients & Works"
-  enable: true
-
-  clients:
-    - logo:
-        x: "img/clients/asgardia.png"
-        _2x: "img/clients/asgardia@2x.png"
-      alt: "Asgardia"
-
-    - logo:
-        x: "img/clients/earth-2.png"
-        _2x: "img/clients/earth-2@2x.png"
-      alt: "Earth 2.0"
-
-    - logo:
-        x: "img/clients/goldline.png"
-        _2x: "img/clients/goldline@2x.png"
-      alt: "Goldline"
-
-    - logo:
-        x: "img/clients/kanba.png"
-        _2x: "img/clients/kanba@2x.png"
-      alt: "Kanba"
-
-    - logo:
-        x: "img/clients/zoo-tv.png"
-        _2x: "img/clients/zoo-tv@2x.png"
-      alt: "Zoo"
-
-    - logo:
-        x: "img/clients/ztos.png"
-        _2x: "img/clients/ztos@2x.png"
-      alt: "Ztos"
-
-  works:
-    - title: "Radity Finance - UI Kit"
-      description: "We have been receiving a lot of requests for a Finance Kit recently due to the popularity of Fintech."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/radity-finance.jpg"
-        _2x: "img/works/radity-finance@2x.jpg"
-      is_even: true
-
-    - title: "Swiss Fintech Website"
-      description: "The Swiss Finance + Technology Association is the leading FinTech hub in Switzerland."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/swissfintech.jpg"
-        _2x: "img/works/swissfintech@2x.jpg"
-      is_even: false
-
-    - title: "Robo Advisor"
-      description: "Robo Advisor is a Swiss Wealth Manager and wants to create the best digital experience for its UNHW clients across the world. We started with a whiteboard."
-      button:
-        icon: "icon-arrow-right"
-        btnText: "Case Study"
-        URL: "#"
-      image:
-        x: "img/works/robo-advisor.jpg"
-        _2x: "img/works/robo-advisor@2x.jpg"
-      is_even: true
-
-# testimonial
-testimonial:
-  enable: true
-  title: "Testimonials"
-  items:
-    - name: "Daniel Jordan"
-      position: "Phonet, CEO"
-      content: "Cold calling can be a great way to generate quality leads. You get to speak to the gatekeepers and stakeholders, and you get a great insight into their requirements and influences. But cold calling is an art-form. It can be daunting, it’s always a lot of work, and you always need to make a good impression."
-      image:
-        x: "img/testimonials/daniel-jordan.jpg"
-        _2x: "img/testimonials/daniel-jordan@2x.jpg"
-
-    - name: "Jonathan Peters"
-      position: "Textic, CEO"
-      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
-      image:
-        x: "img/testimonials/jonathan-peters.jpg"
-        _2x: "img/testimonials/jonathan-peters@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
-
-    - name: "Antonio Willis"
-      position: "Cyberse, CEO"
-      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
-      image:
-        x: "img/testimonials/antonio-willis.jpg"
-        _2x: "img/testimonials/antonio-willis@2x.jpg"
+      logo: "Exim-Bank.png"
 
 # contact
 contact:
