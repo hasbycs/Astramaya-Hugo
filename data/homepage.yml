@@ -25,34 +25,34 @@ showcase:
 
   socialLinks:
     - icon: "linkedin"
-      URL: "https://www.linkedin.com/company/radity/"
+      URL: "#"
 
     - icon: "github"
-      URL: "https://github.com/radity"
+      URL: "#"
 
     - icon: "twitter"
-      URL: "https://twitter.com/radity"
+      URL: "#"
 
     - icon: "dribbble"
-      URL: "https://dribbble.com/radity"
+      URL: "#"
 
     - icon: "behance"
-      URL: "https://www.behance.net/radity-digital"
+      URL: "#"
 
     - icon: "youtube"
-      URL: "https://www.youtube.com/channel/UCojEc6SPO-W1_CoeHhK9-Zw"
+      URL: "#"
 
     - icon: "instagram"
-      URL: "https://www.instagram.com/teamradity/"
+      URL: "#"
 
     - icon: "facebook"
-      URL: "https://www.facebook.com/raditycom/"
+      URL: "#"
 
     - icon: "codepen"
       URL: "#"
 
     - icon: "yelp"
-      URL: "https://www.yelp.com/"
+      URL: "#"
 
 # about
 about:

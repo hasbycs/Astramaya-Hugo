@@ -10139,7 +10139,7 @@ textarea:focus {
     margin-left: -75px;
   }
   .header {
-    padding-top: 35px;
+    /* padding-top: 35px; */
   }
   .header .navbar {
     -webkit-box-pack: justify;
@@ -10203,7 +10203,7 @@ textarea:focus {
 .header .navbar-toggler:not(.nav-link) {
   position: absolute;
   left: 0;
-  top: 14px;
+  top: 0;
   border: none;
 }
 .header .navbar-toggler:not(.nav-link)-icon {
