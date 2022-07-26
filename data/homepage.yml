@@ -58,9 +58,7 @@ showcase:
 about:
   enable: true
   title: "About <br/> Our Company"
-  content: "We are a start up company focuses on analyzing all
-    kind of data. ASTRAMAYA advance in analyzing
-    conversations and news both social and mass media"
+  content: "ASTRAMAYA  adalah solusi yang disediakan oleh PT Astrabuana Sendhang Pranawa. Perusahaan yang berfokus pada analisis berbagai big data. ASTRAMAYA berpengalaman dalam menganalisis percakapan di media sosial dan berita di media massa, yang didirikan pada April 2017."
   button:
     btnText: "Read more"
   image:
