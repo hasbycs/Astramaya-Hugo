@@ -27,22 +27,22 @@ theme = "raditian-free-hugo-theme"
 
   # Header
   [[menu.header]]
-  name = "About Us"
+  name = "Tentang kami"
   URL = "#about"
   weight = 2
 
   [[menu.header]]
-  name = "Our Services"
+  name = "Layanan Kami"
   URL = "#ourservice"
   weight = 3
 
   [[menu.header]]
-  name = "Article"
+  name = "Artikel"
   URL = "#product"
   weight = 4
 
   [[menu.header]]
-  name = "Client"
+  name = "Klien"
   URL = "#client"
   weight = 5
   
@@ -52,28 +52,28 @@ theme = "raditian-free-hugo-theme"
   # weight = 5
 
   [[menu.header]]
-  name = "Contact Us"
+  name = "Kontak kami"
   URL = "#contact"
   weight = 6
 
   #Footer
   [[menu.footer]]
-  name = "About Us"
+  name = "Tentang kami"
   URL = "#about"
   weight = 2
 
   [[menu.footer]]
-  name = "Our Services"
+  name = "Layanan Kami"
   URL = "#ourservice"
   weight = 3
 
   [[menu.footer]]
-  name = "Article"
+  name = "Artikel"
   URL = "#product"
   weight = 4
   
   [[menu.footer]]
-  name = "Client"
+  name = "Klien"
   URL = "#client"
   weight = 5
   
@@ -83,7 +83,7 @@ theme = "raditian-free-hugo-theme"
   # weight = 5
 
   [[menu.footer]]
-  name = "Contact Us"
+  name = "Kontak kami"
   URL = "#contact"
   weight = 6
 
